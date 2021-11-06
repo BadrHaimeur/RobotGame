@@ -5,6 +5,9 @@ using System.Threading;
 
 namespace RobotGame.Application
 {
+    /// <summary>
+    /// This is where the robots have fun.
+    /// </summary>
     public class PlayingRoom : Room, IPlayable
     {
         public event EventHandler DonePlaying;
