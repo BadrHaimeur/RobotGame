@@ -49,15 +49,18 @@ namespace RobotGame.DesktopUI
             this.chargeButton.TabIndex = 11;
             this.chargeButton.Text = "Charge";
             this.chargeButton.UseVisualStyleBackColor = true;
+            this.chargeButton.Click += new System.EventHandler(this.chargeButton_Click);
             // 
             // moveToChargingRoomButton
             // 
+            this.moveToChargingRoomButton.Enabled = false;
             this.moveToChargingRoomButton.Location = new System.Drawing.Point(349, 172);
             this.moveToChargingRoomButton.Name = "moveToChargingRoomButton";
             this.moveToChargingRoomButton.Size = new System.Drawing.Size(96, 22);
             this.moveToChargingRoomButton.TabIndex = 9;
             this.moveToChargingRoomButton.Text = "<<";
             this.moveToChargingRoomButton.UseVisualStyleBackColor = true;
+            this.moveToChargingRoomButton.Click += new System.EventHandler(this.moveToChargingRoomButton_Click);
             // 
             // moveToPlayingRoomButton
             // 
@@ -67,6 +70,7 @@ namespace RobotGame.DesktopUI
             this.moveToPlayingRoomButton.TabIndex = 10;
             this.moveToPlayingRoomButton.Text = ">>";
             this.moveToPlayingRoomButton.UseVisualStyleBackColor = true;
+            this.moveToPlayingRoomButton.Click += new System.EventHandler(this.moveToPlayingRoomButton_Click);
             // 
             // groupBox2
             // 
@@ -114,6 +118,7 @@ namespace RobotGame.DesktopUI
             this.playButton.TabIndex = 6;
             this.playButton.Text = "Play";
             this.playButton.UseVisualStyleBackColor = true;
+            this.playButton.Click += new System.EventHandler(this.playButton_Click);
             // 
             // MainForm
             // 
@@ -129,6 +134,7 @@ namespace RobotGame.DesktopUI
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Robot Game";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
