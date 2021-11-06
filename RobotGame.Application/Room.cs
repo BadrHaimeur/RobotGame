@@ -9,7 +9,7 @@ namespace RobotGame.Application
     /// All commands will take effect only if there are no activities in the room.
     /// </note>
     /// </summary>
-    internal class Room : IRoom
+    public class Room : IRoom
     {
         protected List<IRobot> _robots;
 
