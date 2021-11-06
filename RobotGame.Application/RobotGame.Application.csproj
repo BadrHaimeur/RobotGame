@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ChargingRoom.cs" />
     <Compile Include="Exceptions\DeadBatteryLifeException.cs" />
+    <Compile Include="Helpers\RobotFactory.cs" />
     <Compile Include="Interfaces\IChargeable.cs" />
     <Compile Include="Interfaces\IPlayable.cs" />
     <Compile Include="Interfaces\IRobot.cs" />
