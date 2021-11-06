@@ -10,6 +10,6 @@ namespace RobotGame.Application
 
         void GoIn(IEnumerable<IRobot> robots);
         void GoIn(IRobot robot);
-        void GoOut(IRobot robot);
+        void GoOut(IRobot robot = null);
     }
 }
