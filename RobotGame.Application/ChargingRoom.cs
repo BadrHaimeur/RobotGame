@@ -11,6 +11,10 @@ namespace RobotGame.Application
     {
         public event EventHandler DoneCharging;
 
+        public ChargingRoom(string name) : base(name)
+        {
+        }
+
         public ChargingRoom(string name, IEnumerable<IRobot> robots) : base(name, robots)
         {
         }

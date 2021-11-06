@@ -18,6 +18,10 @@ namespace RobotGame.Application
         /// </summary>
         public static uint GamesPerPlay { get; set; } = 10;
 
+        public PlayingRoom(string name) : base(name)
+        {
+        }
+
         public PlayingRoom(string name, IEnumerable<IRobot> robots) : base(name, robots)
         {
         }

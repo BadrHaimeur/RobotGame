@@ -19,6 +19,12 @@ namespace RobotGame.Application
         public bool IsBusy { get; protected set; }
         public IReadOnlyCollection<IRobot> Robots { get => _robots.AsReadOnly(); }
 
+        public Room(string name)
+        {
+            this.Name = name;
+            this._robots = new List<IRobot>();
+        }
+
         public Room(string name, IEnumerable<IRobot> robots)
         {
             this.Name = name;
