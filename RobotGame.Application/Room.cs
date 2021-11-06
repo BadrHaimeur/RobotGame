@@ -1,5 +1,6 @@
 ﻿using RobotGame.Application.Interfaces;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace RobotGame.Application
 {
@@ -18,10 +19,10 @@ namespace RobotGame.Application
         public bool IsBusy { get; protected set; }
         public IReadOnlyCollection<IRobot> Robots { get => _robots.AsReadOnly(); }
 
-        public Room(string name)
+        public Room(string name, IEnumerable<IRobot> robots)
         {
             this.Name = name;
-            this._robots = new List<IRobot>();
+            this._robots = robots.ToList();
         }
 
         /// <summary>
