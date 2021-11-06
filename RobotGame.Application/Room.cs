@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using RobotGame.Application.Interfaces;
+using System.Collections.Generic;
 
 namespace RobotGame.Application
 {

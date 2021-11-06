@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace RobotGame.Application
+namespace RobotGame.Application.Interfaces
 {
     public interface IRoom
     {

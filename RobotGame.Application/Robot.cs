@@ -1,4 +1,5 @@
 ﻿using RobotGame.Application.Exceptions;
+using RobotGame.Application.Interfaces;
 using System.Threading;
 
 namespace RobotGame.Application

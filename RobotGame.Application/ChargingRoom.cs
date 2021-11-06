@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RobotGame.Application.Interfaces;
+using System;
 
 namespace RobotGame.Application
 {

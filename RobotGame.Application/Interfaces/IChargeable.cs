@@ -1,4 +1,4 @@
-﻿namespace RobotGame.Application
+﻿namespace RobotGame.Application.Interfaces
 {
     public interface IChargeable
     {
