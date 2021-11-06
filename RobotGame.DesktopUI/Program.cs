@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+using Forms = System.Windows.Forms;
 
 namespace RobotGame.DesktopUI
 {
@@ -14,9 +11,9 @@ namespace RobotGame.DesktopUI
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Forms.Application.EnableVisualStyles();
+            Forms.Application.SetCompatibleTextRenderingDefault(false);
+            Forms.Application.Run(new MainForm());
         }
     }
 }
