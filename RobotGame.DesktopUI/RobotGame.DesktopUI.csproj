@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RobotGame.Application\RobotGame.Application.csproj">
+      <Project>{35a0a0f4-c291-4715-b956-9383ee7734d8}</Project>
+      <Name>RobotGame.Application</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
