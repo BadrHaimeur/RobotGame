@@ -45,7 +45,7 @@ namespace RobotGame.Application
         /// </summary>
         public void Play()
         {
-            if (_batteryLife <= 0)
+            if (BatteryLife <= 0)
             {
                 throw new DeadBatteryLifeException(this.Name);
             }
